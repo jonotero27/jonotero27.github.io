@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Otero Shop Assistant</title>
+<meta name="description" content="A personal tool for managing a single Etsy shop: trend research, listing management, and order and profit tracking.">
+<style>
+  :root { --bg:#fbfaf7; --text:#1f2328; --muted:#5b616b; --accent:#c2410c; --card:#ffffff; --border:#e6e2da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14161a; --text:#e8e6e1; --muted:#a3a7ae; --accent:#fb923c; --card:#1c1f24; --border:#2c3038; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  .tag { color:var(--muted); margin:0 0 32px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; color:var(--accent); }
+  section { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:4px 20px 12px; margin-bottom:16px; }
+  ul { padding-left:20px; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:.9rem; margin-top:32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Otero Shop Assistant</h1>
+  <p class="tag">A personal tool for managing my own Etsy shop.</p>
+
+  <section>
+    <h2>What it does</h2>
+    <ul>
+      <li>Researches product trends using public Etsy listing data</li>
+      <li>Helps me create and manage listings in my shop (every new product is reviewed and approved by me before it goes live)</li>
+      <li>Reads my shop's orders to track sales, costs, and profit</li>
+    </ul>
+    <p>This app is used only by the shop owner, for a single shop. It is not offered to other sellers or to the public.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy policy</h2>
+    <ul>
+      <li><strong>Data accessed:</strong> my own shop's listings, orders, and receipts, plus public listing data from the Etsy API.</li>
+      <li><strong>Buyer information:</strong> used only to fulfill orders and calculate shop totals. It is never sold, shared, or used for marketing outside Etsy.</li>
+      <li><strong>Storage:</strong> data is stored privately on my own devices and accounts, kept only as long as needed for bookkeeping, and deleted on request.</li>
+      <li><strong>Third parties:</strong> order details are shared only with my print-on-demand production partner as needed to make and ship orders.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions or data requests: <a href="https://github.com/jonotero27">github.com/jonotero27</a></p>
+  </section>
+
+  <footer>The term "Etsy" is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc.</footer>
+</main>
+</body>
+</html>
